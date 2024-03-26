@@ -1,0 +1,130 @@
+/** 此文件用于 项目整体样式*/
+body {
+  -webkit-text-size-adjust: 100% !important;
+}
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: var(--cus-body-background);
+  overflow-y: visible;
+  overflow-x: hidden;
+
+  // font-family:  "Helvetica Neue"``, "Segoe UI"``, Helvetica``, Arial``, "PingFang SC"``, "Microsoft YaHei"``, "WenQuanYi Micro Hei"``, sans-serif``;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,"SF Pro",Roboto, San Francisco,"Helvetica Neue", Helvetica, Arial,'Lucida Grande', sans-serif;
+  // font-family:"Arial", "Helvetica", "sans-serif", "SFPro", "IBMPlexMono","IBM Plex Mono",
+  //   "Microsoft YaHei", "Hiragino Sans GB", "Helvetica Neue", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #000000;
+  user-select: none;
+  
+}
+body {
+  // font-size: 12px;
+  input{
+    font-weight: 400;
+  }
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dt,
+dd,
+ol,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  // font-family: PingFangSC-Medium; //字体类型根据设计稿修改
+}
+
+a {
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+/* 滚动条样式 */
+* {
+  &::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 0px;
+    height: 4px;
+    background-color: var(--cus-scrollbar-bar-background);
+  }
+  &::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    background: var(--cus-scrollbar-bar-color);
+    border-radius: 4px;
+  }
+  // firefox
+  scrollbar-color: var(--cus-scrollbar-bar-color) var(--cus-scrollbar-bar-background);
+  scrollbar-width: thin;
+}
+/* 修改默认文本placeholder颜色 */
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+    color: var(--cus-input-placeholder-color) !important;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: var(--cus-input-placeholder-color)!important;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: var(--cus-input-placeholder-color)!important;
+}
+
+img{
+  border: none;
+  vertical-align: top;
+}
+.no-data{
+  text-align: center;
+  line-height: 650px;
+  height: 310px;
+  background:var(--arc-noData-icon);
+}
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*角标VIP*/
+.vip {
+  font-size: 24px;
+  line-height: 32px;
+  color: #48320b;
+  background: linear-gradient(180deg, #fbe7c6, #f1c17f);
+}
+/*角标预告*/
+.foretell {
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+  background: linear-gradient(180deg, #789bed, #5e8bfd);
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="132px" viewBox="0 0 9 132" version="1.1" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Prome-Home" transform="translate(-688.000000, -4909.000000)" fill="#8EABC0" fill-rule="nonzero">
+            <path id="svg_3" d="M692.5,4909 L697,4918 L693,4918 L693,5041 L692,5041 L692,4918 L688,4918 L692.5,4909 Z">
+            </path>
+            <path id="svg_4" d="M692.5,5041 L692.5,4918">
+            </path>
+            <circle r="2" fill="#8EABC0" id="circle1" opacity=".8">
+                <animateMotion dur="4s" begin="0s" repeatCount="indefinite">
+                    <mpath xlink:href="#svg_4" />
+                </animateMotion>
+                <animateTransform attributeName="transform" begin="0s" dur="4s" type="scale" repeatCount="indefinite" />
+            </circle>
+            <circle r="2" fill="#8EABC0" id="circle2" opacity=".8">
+                <animateMotion dur="4s" begin="-2s" repeatCount="indefinite">
+                    <mpath xlink:href="#svg_4" />
+                </animateMotion>
+                <animateTransform attributeName="transform" begin="0s" dur="4s" type="scale" repeatCount="indefinite" />
+            </circle>
+        </g>
+    </g>
+</svg>
+
+<!-- <path id="svg_3" d="m372,137.1145810,161.19864" stroke-linecap="undefined" stroke-linejoin="undefined" stroke-width="3"
+    fill="#000" stroke="#ff0000" />
+<g>
+    <circle r="5" fill="blue" id="circle1" opacity=".8">
+        <animateMotion dur="4s" begin="0s" repeatCount="indefinite">
+            <mpath xlink:href="#svg_3" />
+        </animateMotion>
+        <animateTransform attributeName="transform" begin="0s" dur="4s" type="scale" repeatCount="indefinite" />
+    </circle>
+    <circle r="5" fill="blue" id="circle1" opacity=".8">
+        <animateMotion dur="4s" begin="-2s" repeatCount="indefinite">
+            <mpath xlink:href="#svg_3" />
+        </animateMotion>
+        <animateTransform attributeName="transform" begin="0s" dur="4s" type="scale" repeatCount="indefinite" />
+    </circle>
+</g> -->

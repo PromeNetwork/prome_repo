@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" /> -->
+  <!-- <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover"> -->
+  <script src="./js/typed.js"></script>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/wow.js"></script>
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+
+</head>
+
+<body onload="pageload()">
+  <div id="app"></div>
+
+  <script type="text/javascript">
+    function pageload() {
+      window.wow = new WOW({
+        boxClass: "wow",
+        animateClass: "animated",
+        offset: 0,
+        mobile: true,
+        live: false,
+        scrollContainer: '#app',
+        callback: function (box) {
+          // console.log(box);
+        },
+      });
+      window.wow.init();
+    }
+  </script>
+</body>
+
+</html>
